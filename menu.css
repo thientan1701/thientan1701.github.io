@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.thongbao{
+    height: 35px;
+    text-align: center;
+    background: black;
+    color: white;
+    line-height: 35px;
+}
+
+.menu-logo{
+    position: relative;
+    height: 70px;
+    background: #ededed;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    left: 20px;
+}
+.menu-logo nav{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    margin: 0 30px;
+}
+
+.menu-logo nav a:hover{
+    color: brown;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 110px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner li:hover img{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.product .heading{
+    font-size: 28px;
+    color: brown;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.product .list-product .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.product .list-product .product-item li {
+    overflow: hidden;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+
+.product .list-product .product-item li:hover img{
+    transform: scale(1.1);
+}
+
+/*CSS cho phần footer */
+footer{
+    width: 100%;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.tacgia {
+    background: black;
+    color: white;
+    text-align: center;
+}
